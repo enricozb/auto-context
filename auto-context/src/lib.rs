@@ -126,7 +126,5 @@ pub fn auto_context(_attr: TokenStream, item: TokenStream) -> TokenStream {
 
   AutoContext.visit_item_mut(&mut item);
 
-  TokenStream::from(quote! {
-      #item
-  })
+  TokenStream::from(quote! { #item })
 }
