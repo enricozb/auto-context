@@ -2,6 +2,8 @@
 name = "auto-context"
 version = "0.1.0"
 edition = "2021"
+license = "CC0-1.0"
+description = "Auto-add context to anyhow errors (without nightly)"
 readme = "../readme.md"
 
 [lib]

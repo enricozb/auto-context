@@ -1,6 +1,8 @@
+## auto-context
+
 Auto-add context to anyhow errors (without nightly).
 
-# Example
+## Example
 
 ```rust
 use anyhow::{Context, Result};
@@ -36,7 +38,7 @@ Caused by:
     1: some error
 ```
 
-# Details
+## Details
 
 The [auto_context][1] proc macro can be used to annotate any item. This
 includes functions, methods, and struct/trait impls.
