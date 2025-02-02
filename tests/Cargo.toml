@@ -1,0 +1,11 @@
+[package]
+name = "auto-context-tests"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[dev-dependencies]
+anyhow = "1.0.95"
+auto-context = { path = "../auto-context" }
+indoc = "2.0.5"
