@@ -2,6 +2,7 @@
 name = "auto-context"
 version = "0.1.0"
 edition = "2021"
+readme = "../readme.md"
 
 [lib]
 proc-macro = true
